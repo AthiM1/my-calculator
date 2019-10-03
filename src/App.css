@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -31,3 +29,140 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: font-family;
+  height: 100vh;
+  min-height: 800px;
+  background:gray;
+  overflow: auto;
+}
+button {
+  background: white;
+  color:gray;
+  font-family: font-family;
+  font-size: 16px;
+  border: none;
+  padding: 15px;
+  flex-grow: 1;
+  width: 50px;
+}
+
+  .h1 {
+    font-family: 'Roboto Slab';
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.calculator {
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 0 50px #202020;
+  text-align: center;
+}
+.display {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 20px 10px;
+  color: white;
+  background: rgba(47, 226, 56, 0);
+  text {
+    flex-grow: 5;
+    text-align: right;
+  }
+  &-overall {
+    font-size: 12px;
+    line-height: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.6);
+  }
+}
+.row {
+  display: flex;
+}
+.inputs {
+  display: flex;
+}
+.sides {
+  display: flex;
+  flex-direction: column;
+  .ac {
+    flex-grow: 1;
+  }
+  .equal {
+    flex-grow: 2;
+    color: white;
+    background: gradient-orange;
+  }
+}
+.operator,
+.sides {
+ 
+    background:grey;
+  }
+
+  
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #808080;
+    
+  
+    }
+  
+    nav,li, ul{
+      text-decoration: none;
+    }
+    a {
+      text-decoration: none;
+        flex-grow: 1;
+        text-align: center;
+        color: white;
+        background-color: white;
+        padding: 15px 20px ;
+  ;
+        
+       
+            color: white;
+            background-color: #333;
+        }
+  
+  
+  
+  .navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+  
+  }
+  
+  .navbar a.active {
+  color: white;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #808080;
+  
+  
+  }
+  
